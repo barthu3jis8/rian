@@ -1,6 +1,7 @@
 #docker-image.yml
 name: Message Queue
 on:
+  pull_request: 
   workflow_dispatch:
     inputs:
       source:
