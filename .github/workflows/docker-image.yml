@@ -2,8 +2,6 @@
 name: Message Queue
 on:
   issue_comment:
-    
-    
   workflow_dispatch:
     inputs:
       source:
